@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    /* border: 1px solid black;s */
+    width: 100%;
+    height: 200vh;
+    position: relative;
+}
+
+.innercont{
+    border: 1px solid rgb(230, 210, 210);
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: white;
+}
+
+.babycont{
+    /* border: 1px solid black; */
+    width: 92%;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.742);
+}
+
+@media (max-width: 750px) {
+    h1{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 100%;
+    }
+    .navbar div{
+        font-size: 80%;
+    }
+    .Continue{
+        width: 80%;
+        margin-right: 0;
+        /* border: 1px solid black; */
+        font-size: 60%;
+        padding-left: 5%;
+        /* padding-right: 15%; */
+    }
+    .Google2{
+        width: 1em;
+        height: 2.5em;
+    }
+    .apple-cont{
+        font-size: 80%;
+    }
+
+    .textinput1{
+        font-size: 60%;
+    }
+    .textinput2{
+        font-size: 60%;
+    }
+    .email{
+        font-size: 60%;
+    }
+    .password{
+        font-size: 60%;
+    }
+     .select{
+        font-size: 60%;
+     }
+     .emailtips{
+        font-size: 60%;
+     }
+     .Service{
+        font-size: 60%;
+     }
+     .button1{
+          font-size: 70%;
+     }
+     .login{
+        font-size: 60%;
+     }
+     .condition{
+        font-size: 60%;
+     }
+     .passworddiv{
+        font-size: 60%;
+     }
+     .emaildiv{
+        font-size: 60%;
+     }
+     .lastname{
+        font-size: 60%;
+     }
+     .firstname1{
+        font-size: 60%;
+     }
+     .or{
+        margin-left: 8px;
+     }
+}
+
+
+
+
+@media (max-width: 401px) {
+    .password{
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 322px) {
+    .password{
+        font-size: 40%;
+    }
+    .email{
+        font-size: 40%;
+    }
+    .textinput1{
+        font-size: 40%;
+    }
+    .textinput2{
+        font-size: 40%;
+    }
+    .select{
+        font-size: 40%;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width: 376px) {
+    .apple-cont{
+        font-size: 55%;
+        padding: 5px 3px;
+    }
+}
+
+/* @media (max-width: 376px) {
+    .continue1{
+        margin-left: 10%;
+    }
+} */
+
+.image{
+    height: 8vh;
+    width: 8%;
+}
+
+
+.Google{
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 6px; */
+    background-color: rgb(119, 119, 229);
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.Google:hover{
+    background-color: rgba(0, 0, 255, 0.815);
+    transition: 1s ease-in-out;
+}
+
+.Google2{
+    border: 3px solid white;
+    width: 2.5em;
+    margin-top: 2px;
+    /* height: 2.5em; */
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Continue{
+    margin-right: 28%;
+    font-family: sans-serif;
+    font-weight: large;
+}
+
+.apple{
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: large;
+}
+
+.apple:hover{
+    background-color: aliceblue;
+    transition: 2s ease-in-out;
+}
+
+.apple1{
+    margin-right: 10px;
+}
+
+.navbar{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    position: fixed;
+    z-index: 2;
+    background-color: white
+    
+}
+
+.apply{
+    color: green;
+}
+
+.div1{
+    width: 48%;
+    border: .05px solid darkgray;
+    
+    /* padding-right: 2%; */
+}
+.div2{
+    width: 48%;
+    border: .05px solid darkgray;
+    margin-left: 3%;
+}
+
+@media (max-width: 425px) {
+    .div2{
+        margin-left: 5%;
+    }
+}
+
+.or{
+    margin-left: 15px;
+}
+
+
+.orsection{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input1{
+    /* border: 1px solid black; */
+    width: 48%;
+}
+
+.input2{
+    /* border: 1px solid black; */
+    width: 48%;
+}
+
+.textinput1{
+    padding: 10px;
+    /* border-color: red; */
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+.textinput2{
+    padding: 10px;
+    /* border-color: red; */
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.firstname1{
+    /* border: 1px solid black; */
+    display: none;
+    width: 100%;
+    color: red;
+    margin-top: 5px;
+}
+
+.firstname{
+    margin-left: 10px;
+}
+
+.lastname{
+    /* border: 1px solid black; */
+    display: none;
+    width:100%;
+    color: red;
+    margin-top: 5px;
+}
+
+.lastname1{
+    margin-left: 10px;
+}
+
+.email{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    outline: none;
+}
+.password{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+.eyefill2{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.eyefill1{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.emaildiv{
+    width: 100%;
+    /* padding-top: 10px; */
+    padding-top: 5px;
+    color: red;
+    display: none;
+}
+
+.emailspan{
+    margin-left: 10px;
+}
+
+.passworddiv{
+    width: 100%;
+    /* padding-top: 10px; */
+    padding-top: 5px;
+    color: red;
+    display: none;
+}
+
+.passwordspan{
+    margin-left: 10px;
+}
+
+.select{
+    padding: 10px;
+    width: 100%;
+    /* border-color: blue */
+    border-radius: 5px;
+    margin-top: 20px;
+    border-bottom: 20px;
+    overflow: scroll;
+    border:2px solid rgb(115, 108, 108);
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* padding: 10px; */
+    height: 5%;
+}
+
+.box{
+    padding: 25px;
+}
+
+.emailtips{
+    margin-left: 10px;
+}
+
+.text{
+    color: green;
+    font-family: sans-serif;
+}
+
+.Service{
+    margin-left: 10px;
+}
+
+.condition{
+    color: red;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 400;
+    display: none;
+}
+
+.terms{
+    margin-left: 10px;
+}
+
+.buttondiv{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(115, 108, 108);
+    display: block;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    font-size: 100%;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.submit{
+    width: 100%;
+    /* border: 1px solid black; */
+    font-size: 100%;
+}
+
+.button1:hover{
+    background-color: rgba(130, 123, 41, 0.795);
+}
+
+.login{
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.log{
+    color: green;
+    margin-left: 5px;
+    text-decoration: none;
+}
